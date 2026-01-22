@@ -1,0 +1,12 @@
+langchain
+langchain-core
+langchain-google-genai
+langchain-openai 
+langchain-community 
+azure-search-documents 
+python-dotenv 
+openai 
+pymupdf
+azure-identity
+PyPDF2
+pypdf

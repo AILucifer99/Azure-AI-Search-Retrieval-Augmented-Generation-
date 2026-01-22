@@ -1,0 +1,130 @@
+Azure Search Inference Results
+Generated on: 2026-01-22 11:35:40
+================================================================================
+
+Initializing Inference Engine...
+
+Available strategies: ['keyword', 'hybrid', 'semantic']
+
+
+################################################################################
+🔍 QUERY: What are the main components of a RAG system?
+################################################################################
+
+📝 KEYWORD SEARCH (BM25)
+================================================================================
+[1] Score: 5.83059 | File: REFRAG.pdf (Page 1)
+    Content: REFRAG: Rethinking RAG based Decoding Xiaoqiang Lin1,2,∗, Aritra Ghosh1, Bryan Kian Hsiang Low2, Anshumali Shrivastava1,3, Vijai Mohan1 1Meta Superintelligence Labs, 2National University of Singapore,...
+--------------------------------------------------
+[2] Score: 5.6171565 | File: REFRAG.pdf (Page 11)
+    Content: 7 Conclusion In this work, we introduced REFRAG, a novel and efficient decoding framework tailored for RAG applications. By leveraging the inherent sparsity and block-diagonal attention patterns prese...
+--------------------------------------------------
+[3] Score: 4.9793563 | File: REFRAG.pdf (Page 8)
+    Content: Evaluation dataset. We hold out 5% of the data for each dataset in the training dataset for evaluation. Additionally, we use the datasets that are commonly used in RAG literature (Izacard et al., 2023...
+--------------------------------------------------
+
+⚡ HYBRID SEARCH (Vector + Keyword)
+================================================================================
+[1] Score: None | File: REFRAG.pdf (Page 1)
+    Content: REFRAG: Rethinking RAG based Decoding Xiaoqiang Lin1,2,∗, Aritra Ghosh1, Bryan Kian Hsiang Low2, Anshumali Shrivastava1,3, Vijai Mohan1 1Meta Superintelligence Labs, 2National University of Singapore,...
+--------------------------------------------------
+[2] Score: None | File: REFRAG.pdf (Page 11)
+    Content: 7 Conclusion In this work, we introduced REFRAG, a novel and efficient decoding framework tailored for RAG applications. By leveraging the inherent sparsity and block-diagonal attention patterns prese...
+--------------------------------------------------
+[3] Score: None | File: REFRAG.pdf (Page 1)
+    Content: latency for long-context inputs is a primary objective for LLMs, we contend that RAG systems require specialized consideration. In RAG, much of the LLM context consists of concatenated passages from r...
+--------------------------------------------------
+
+🧠 SEMANTIC HYBRID SEARCH (Reranked)
+================================================================================
+[1] Score: None | File: REFRAG.pdf (Page 1)
+    Content: REFRAG: Rethinking RAG based Decoding Xiaoqiang Lin1,2,∗, Aritra Ghosh1, Bryan Kian Hsiang Low2, Anshumali Shrivastava1,3, Vijai Mohan1 1Meta Superintelligence Labs, 2National University of Singapore,...
+--------------------------------------------------
+[2] Score: None | File: REFRAG.pdf (Page 1)
+    Content: latency for long-context inputs is a primary objective for LLMs, we contend that RAG systems require specialized consideration. In RAG, much of the LLM context consists of concatenated passages from r...
+--------------------------------------------------
+[3] Score: None | File: REFRAG.pdf (Page 11)
+    Content: 7 Conclusion In this work, we introduced REFRAG, a novel and efficient decoding framework tailored for RAG applications. By leveraging the inherent sparsity and block-diagonal attention patterns prese...
+--------------------------------------------------
+
+
+################################################################################
+🔍 QUERY: Explain the difference between sparse and dense retrieval
+################################################################################
+
+📝 KEYWORD SEARCH (BM25)
+================================================================================
+[1] Score: 5.9444485 | File: REFRAG.pdf (Page 2)
+    Content: being uninformative and reused across multiple inferences. Allocating memory/computation for all the tokens, as we show in this paper, is unnecessarily wasteful. 2) Wasteful Encoding and Other Informa...
+--------------------------------------------------
+[2] Score: 5.39752 | File: REFRAG.pdf (Page 21)
+    Content: mental factors that could make certain method advantageous. To this end, our implementation uses the same modelling file which means different baselines share the same hyper-parameter and acceleration...
+--------------------------------------------------
+[3] Score: 4.221701 | File: REFRAG.pdf (Page 1)
+    Content: REFRAG: Rethinking RAG based Decoding Xiaoqiang Lin1,2,∗, Aritra Ghosh1, Bryan Kian Hsiang Low2, Anshumali Shrivastava1,3, Vijai Mohan1 1Meta Superintelligence Labs, 2National University of Singapore,...
+--------------------------------------------------
+
+⚡ HYBRID SEARCH (Vector + Keyword)
+================================================================================
+[1] Score: None | File: REFRAG.pdf (Page 8)
+    Content: accumulation across subsystems. A table summarizing the evaluation metrics for each dataset is included in table 7. Retrieverandretrievalcorpus. We follow the work of Lin et al. (2024) to use Wikipedi...
+--------------------------------------------------
+[2] Score: None | File: REFRAG.pdf (Page 2)
+    Content: being uninformative and reused across multiple inferences. Allocating memory/computation for all the tokens, as we show in this paper, is unnecessarily wasteful. 2) Wasteful Encoding and Other Informa...
+--------------------------------------------------
+[3] Score: None | File: REFRAG.pdf (Page 8)
+    Content: that most tasks still benefit from more passages in our model. Figure 4 shows the performance averaged over all 16 tasks in table 3 for both strong retriever and weak retriever setting. The result dem...
+--------------------------------------------------
+
+🧠 SEMANTIC HYBRID SEARCH (Reranked)
+================================================================================
+[1] Score: None | File: REFRAG.pdf (Page 2)
+    Content: being uninformative and reused across multiple inferences. Allocating memory/computation for all the tokens, as we show in this paper, is unnecessarily wasteful. 2) Wasteful Encoding and Other Informa...
+--------------------------------------------------
+[2] Score: None | File: REFRAG.pdf (Page 21)
+    Content: mental factors that could make certain method advantageous. To this end, our implementation uses the same modelling file which means different baselines share the same hyper-parameter and acceleration...
+--------------------------------------------------
+[3] Score: None | File: REFRAG.pdf (Page 2)
+    Content: ranging from modifying the attention mechanism’s complexity (Beltagy et al., 2020) to sparsifying attention and context (Child et al., 2019; Xiao et al., 2024; Jiang et al., 2024), and altering contex...
+--------------------------------------------------
+
+
+################################################################################
+🔍 QUERY: How does semantic reranking improve results?
+################################################################################
+
+📝 KEYWORD SEARCH (BM25)
+================================================================================
+[1] Score: 6.112612 | File: REFRAG.pdf (Page 10)
+    Content: Rae et al. (2020) first introduced the compressive transformer, which compresses the KV cache to reduce memory requirements for long-context applications. However, this approach only decreases KV cach...
+--------------------------------------------------
+[2] Score: 5.7112255 | File: REFRAG.pdf (Page 29)
+    Content: that removing instance types with low prediction strength ( ii ) is the only tested method which does not seriously harm generali- sation accuracy . we conclude that keeping full memory of types rathe...
+--------------------------------------------------
+[3] Score: 5.3852572 | File: REFRAG.pdf (Page 10)
+    Content: attention, reducing attention complexity from quadratic to linear; however, this method does not address memory requirements. It is complementary to our approach and can be integrated to further impro...
+--------------------------------------------------
+
+⚡ HYBRID SEARCH (Vector + Keyword)
+================================================================================
+[1] Score: None | File: REFRAG.pdf (Page 1)
+    Content: latency for long-context inputs is a primary objective for LLMs, we contend that RAG systems require specialized consideration. In RAG, much of the LLM context consists of concatenated passages from r...
+--------------------------------------------------
+[2] Score: None | File: REFRAG.pdf (Page 2)
+    Content: complexity, which now scales quadratically with the number of chunks rather than the number of tokens in the context. Unlike prior methods (Yen et al., 2024), REFRAG supports compression of token chun...
+--------------------------------------------------
+[3] Score: None | File: REFRAG.pdf (Page 10)
+    Content: ratios with minimal performance loss. LongLLMLingua (Jiang et al., 2024) extends this method to long-context scenarios, demonstrating significant cost and end-to-end speed improvements. Complementary ...
+--------------------------------------------------
+
+🧠 SEMANTIC HYBRID SEARCH (Reranked)
+================================================================================
+[1] Score: None | File: REFRAG.pdf (Page 1)
+    Content: latency for long-context inputs is a primary objective for LLMs, we contend that RAG systems require specialized consideration. In RAG, much of the LLM context consists of concatenated passages from r...
+--------------------------------------------------
+[2] Score: None | File: REFRAG.pdf (Page 10)
+    Content: ratios with minimal performance loss. LongLLMLingua (Jiang et al., 2024) extends this method to long-context scenarios, demonstrating significant cost and end-to-end speed improvements. Complementary ...
+--------------------------------------------------
+[3] Score: None | File: REFRAG.pdf (Page 8)
+    Content: 2022), ORConvQA (Qu et al., 2020), and QReCC (Anantha et al., 2021). For each conversation turn, we retrieve K passages using the same retriever and retrieval corpus as described in section 5.1. Resul...
+--------------------------------------------------
