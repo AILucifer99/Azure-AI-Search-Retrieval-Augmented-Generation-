@@ -1,0 +1,129 @@
+/* Main App Styling */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Customizing the main container */
+.stApp {
+    background-color: #f8f9fa; /* Light background */
+}
+
+/* For dark mode compatibility - optional override */
+@media (prefers-color-scheme: dark) {
+    .stApp {
+        background-color: #0e1117;
+    }
+}
+
+/* Chat Message Styling */
+.stChatMessage {
+    background-color: transparent;
+    border: none;
+}
+
+.stChatMessage [data-testid="stChatMessageContent"] {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border: 1px solid #e9ecef;
+}
+
+@media (prefers-color-scheme: dark) {
+    .stChatMessage [data-testid="stChatMessageContent"] {
+        background-color: #1e2329;
+        border-color: #2d333b;
+    }
+}
+
+/* Avatar Styling */
+.stChatMessage .stAvatar {
+    background-color: #4CAF50; /* Green accent */
+    color: white;
+}
+
+/* Header Styling */
+h1 {
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.5px;
+}
+
+@media (prefers-color-scheme: dark) {
+    h1 {
+        color: #f0f0f0;
+    }
+}
+
+/* Status/Spinner Styling */
+.stSpinner > div {
+    border-top-color: #4CAF50 !important;
+}
+
+.stStatusWidget {
+    border: 1px solid #e0e0e0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+}
+
+@media (prefers-color-scheme: dark) {
+    .stStatusWidget {
+        background-color: #1e2329;
+        border-color: #2d333b;
+    }
+}
+
+/* Expander Styling */
+.streamlit-expanderHeader {
+    font-weight: 500;
+    color: #555;
+    background-color: #f1f3f5;
+    border-radius: 8px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .streamlit-expanderHeader {
+        color: #ccc;
+        background-color: #262730;
+    }
+}
+
+/* Button Styling */
+div.stButton > button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+div.stButton > button:hover {
+    background-color: #45a049;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.2);
+}
+
+div.stButton > button:active {
+    transform: translateY(0);
+}
+
+/* Custom Footer or Info */
+.info-box {
+    padding: 1rem;
+    background-color: #e8f5e9;
+    border-left: 4px solid #4CAF50;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    .info-box {
+        background-color: #1b2e1e;
+        border-left-color: #4CAF50;
+    }
+}
